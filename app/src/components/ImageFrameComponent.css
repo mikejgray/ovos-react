@@ -1,0 +1,46 @@
+/* File: ImageFrameComponent.css */
+
+.image-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  height: 100%;
+}
+
+.image-title {
+  font-family: "Noto Sans";
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 1em;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+.image-container {
+  flex: 1;
+  position: relative;
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-caption-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5em 1em;
+  background-color: rgba(0, 0, 0, 0.4); /* Partially transparent black */
+}
+
+.image-caption {
+  font-family: "Noto Sans";
+  font-weight: bold;
+  margin: 0;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}

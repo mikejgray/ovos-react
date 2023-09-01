@@ -1,0 +1,38 @@
+/* infoComponent.css */
+
+.info-container {
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1000;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.info-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.info-section {
+  margin-bottom: 15px;
+}
+
+.info-section-header {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.info-section-content {
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+.info-image {
+  max-width: 100%;
+  height: auto;
+}

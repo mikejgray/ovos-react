@@ -1,0 +1,33 @@
+.mycroft-card-delegate {
+  background-color: #000000;
+  height: 100vh; /* Makes the card fill the viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-item {
+  background-color: blue;
+  width: 100%;
+  max-width: 600px; /* You can adjust this value as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* This centers the text horizontally */
+  padding: 20px; /* Padding can be adjusted as necessary */
+}
+
+.auto-fit-label {
+  width: 100%;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin: 10px 0; /* Adds some spacing between title and text */
+  color: white;
+}
+
+.title-label {
+  display: none;
+}

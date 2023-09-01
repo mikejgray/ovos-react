@@ -8,7 +8,7 @@ function ContentWindow(props) {
 
   const standardDisplay = (
     <React.Fragment>
-      <Sidebar />
+      <Sidebar owm_key={props.owm_key} />
       <VideoDisplay />
     </React.Fragment>
   );
